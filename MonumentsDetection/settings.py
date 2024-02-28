@@ -68,7 +68,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "MonumentsDetection.wsgi.application"
+# WSGI_APPLICATION = "MonumentsDetection.wsgi.application"
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
 
 
 # Database
